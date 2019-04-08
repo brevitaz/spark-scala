@@ -6,8 +6,8 @@ This sample is developed using Spark 2.3.1 version and Scala 2.11 library. It is
 ## Prerequisites
 
 - To run the demo without `-local` option, ensure Hadoop version 2.7 is setup locally
-- Execute the following command
-  ```ln -s ./src/main/resources/crime-sample-in /tmp/crime-sample-in```
+- Execute the following command from the project root directory
+  ```ln -s "$(pwd)/src/main/resources/crime-sample-in" /tmp/crime-sample-in```
 
 ## Running from development environment
 
