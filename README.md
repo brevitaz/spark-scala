@@ -14,6 +14,7 @@ This sample is developed using Spark 2.3.1 version and Scala 2.11 library. It is
 - Import the project as "Gradle project" in IntelliJ Idea
 - Check the option to "Enable auto-import"
 - Setup run configuration with program argument ```-local```. Instead of creating output files to HDFS, this option will create output file to local FS for testing purpose even if Hadoop isn't setup locally.
+- Verify generated output files under ```/tmp/crime-sample-out``` in local filesystem.
 
 ## Build Jar
 
