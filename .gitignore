@@ -1,6 +1,5 @@
 .gradle
 .idea
 build
-./crime-sample-in
 out
 target
