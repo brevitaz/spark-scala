@@ -18,7 +18,7 @@ This sample is developed using Spark 2.3.1 version and Scala 2.11 library. It is
 
 ## Build Jar
 
-``` ./gradlew clean jar```
+``` ./gradlew clean shadowJar```
 
 ## Run spark job jar to populate in HDFS
 
